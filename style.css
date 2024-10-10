@@ -1,0 +1,290 @@
+
+    .nav-link{
+        font-weight: bolder;
+        color: black !important;
+    }
+    
+    
+    .nav-link:hover{
+       color:green !important;
+  
+       
+    }
+ .navbar{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+ }
+
+.navbar-brand{
+  margin-left: 13%;
+}
+#navbarSupportedContent,.navbar-toggler{
+  margin-right: 13%;
+}
+@media (max-width: 992px) {
+  .navbar-brand {
+    margin-left: 13%;
+    
+  }
+  #navbarSupportedContent{
+    margin-left: 13%  ;
+
+  }
+  .navbar-toggler {
+    margin-right: 13% ;
+  }
+  .navbar {
+    background-color: black !important;
+    
+    
+    
+  }
+  strong{
+    color:white;
+  }
+  .nav-link{
+    color:white !important;
+  }
+  .navbar-toggler{
+    color: gray !important;
+  }
+
+}
+
+
+@media (max-width: 572px) {
+  .navbar-brand {
+    margin-left: 0px;
+    
+  }
+  #navbarSupportedContent{
+    margin-left: 0px;
+  }
+  .navbar-toggler {
+    margin-right: 0px;
+  }
+  .navbar {
+    background-color: black !important;
+  }
+  strong{
+    color:white;
+  }
+  .nav-link{
+    color:white !important;
+  }
+  .navbar-toggler{
+    color: gray !important;
+  }
+
+}
+
+/* Navebar End*/
+
+
+/* HOME starts here*/
+
+
+.home-img{
+    background-image: url(./bgimg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 106vh;
+    position: relative;
+    display:flex;
+   background-attachment:fixed;
+}
+.text{
+  color: black;
+}
+.btn1{
+   background-color: green;
+   font-weight: bold ;
+}
+.btn2{
+  color: black;
+  font-weight: bold  ;
+}
+.row1{
+  padding-top: 200px;
+}
+
+
+/* here is the home seconed part of css*/
+.col3{  
+  background: rgb(58,119,54);
+  background: linear-gradient(90deg, rgba(58,119,54,1) 0%, rgba(61,197,29,1) 46%);
+}
+.col1{
+  background-color:rgba(58,119,54,1) ;
+}
+.row2{
+  position: absolute;
+  top: 100%;
+  margin-right: 10%;
+  padding-left: 9%;
+  
+
+}
+i{
+  font-size: 50px;
+  padding-top: 35%;
+  justify-content: center;
+  align-items: center;
+}
+
+.hs{
+  margin-bottom: 90px;
+
+}
+.row2{
+  margin-bottom: 90px;
+}
+
+@media(min-width:992px){
+  .row2{
+    background-color: rgba(58,119,54,1);
+  }
+  
+ 
+}
+@media(max-width:992px){
+  i{
+    padding-top: 0px;
+  }
+  
+ 
+}
+@media (max-width:768px){
+  .col3{  
+    background: rgb(58,119,54);
+    background: linear-gradient(180deg, rgba(58,119,54,1) 0%, rgba(61,197,29,1) 46%);
+    padding-left: 3% !important;
+
+    
+  }
+  .row2{
+    position: relative !important;
+  }
+  .service{
+    margin-top: 20% !important;
+  }
+
+
+
+}
+
+
+
+/* here the servive section starts*/
+
+
+.service{
+  margin-top: 20%;
+}
+
+@media(max-width:1200px){
+  .service{
+    margin-top: 30%  ;
+  }
+}
+@media (max-width:1050px){
+  .service{
+    margin-top: 35% ;
+  }
+}
+
+
+@media(max-width:960px){
+  .service{
+    margin-top: 40%;
+  }
+}
+@media(max-width:797px){
+  .service{
+    margin-top: 45% ;
+  }
+}
+
+
+
+
+/* here the consiler section start*/
+
+.colc1{
+  background-color: lightgray;
+   padding: 6%;
+}
+
+
+@media(max-width:760px){
+  .rowc{
+    margin: 2%;
+  }
+  .colc2{
+    display: none;
+
+  }
+  .colc1{
+    padding: 13%;
+   
+  }
+}
+
+
+/* Packges section */
+ 
+.packages{
+  background-color: bisque;
+}
+.bor{
+  border: 5px solid bisque; /* 2px solid border with a blue color */
+  
+}
+.send{
+  background-image: url('./imgg.webp');
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover ; 
+  background-attachment:fixed;
+
+}
+
+.ssr{
+  background-color:rgba(81, 162, 62, 0.2)
+  
+}
+
+/*  blog section */
+
+.on{
+  background-image: url(./img1.jpg);
+  background-size: cover;
+  height: 200px;
+}
+
+.cir{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%; 
+  background-color: rgb(218, 223, 221);
+  position: absolute;
+  margin: auto;
+  margin-top:  55%;
+  margin-left: 39%;
+  padding: 2%;
+
+}
+img{
+  position: relative;
+}
+.colc2{
+  background-image: url(./coun.webp);
+  background-size: cover;
+  
+}
+.cir:hover{
+  background-color: green !important;
+  color: aliceblue !important;
+}
